@@ -7,7 +7,7 @@ public class test1{
 
         System.setProperty("webdriver.chrome.driver","P:\\Eclipes workspace\\TesterKT\\ChormeDV\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-
+//
         String baseUrl = "https://vuighe.net/";
         String expectedTitle = "Welcome: Mercury Tours";
         String actualTitle;
